@@ -1,2 +1,2 @@
-# Coding-Algorithm-Challenges
+# Coding Algorithm Challenges
 Collection of LeetCode Solutions!
