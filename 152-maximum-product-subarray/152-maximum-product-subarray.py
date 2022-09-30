@@ -8,9 +8,8 @@ class Solution:
                 curMin, curMax = 1, 1
                 continue
             temp = curMax * x
-            temp2 = x * curMin
-            curMax = max(temp, temp2, x)
-            curMin = min(temp, temp2, x)
+            curMax = max(temp, x * curMin, x)
+            curMin = min(temp, curMin * x, x)
             res = max(res, curMax)
             
         return res
