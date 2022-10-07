@@ -9,4 +9,5 @@ class Solution:
                 else:
                     left += 1
                     right += 1
+
         return nums[0]
