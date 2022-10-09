@@ -6,6 +6,7 @@ class Solution:
             middle = (left + right) // 2
             if nums[middle] == target:
                 return middle
+            
             if nums[middle] >= nums[left]:
                 if nums[left] <= target <= nums[middle]:
                     right = middle
