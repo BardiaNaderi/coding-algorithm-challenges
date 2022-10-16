@@ -7,6 +7,7 @@ class Solution:
             if (i > 0 and x == nums[i - 1]):
                 continue
             l, r = i + 1, (len(nums) - 1)
+            
             while (l < r):
                 sum = nums[l] + nums[r] + x
                 if (sum > 0):
