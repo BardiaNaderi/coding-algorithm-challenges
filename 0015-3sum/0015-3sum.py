@@ -19,4 +19,3 @@ class Solution:
                     while (nums[l] == nums[l - 1] and l < r):
                         l = l + 1
         return finalList
-        
